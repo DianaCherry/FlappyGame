@@ -14,6 +14,11 @@
 		8DC3713B1A556A8A00DCEBFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3713A1A556A8A00DCEBFE /* Images.xcassets */; };
 		8DC3713E1A556A8A00DCEBFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3713C1A556A8A00DCEBFE /* LaunchScreen.xib */; };
 		8DC3714A1A556A8A00DCEBFE /* FlappyGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC371491A556A8A00DCEBFE /* FlappyGameTests.m */; };
+		8DC371571A556CA800DCEBFE /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DC371531A556CA800DCEBFE /* Background.png */; };
+		8DC3715A1A556CA800DCEBFE /* Tunnel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DC371561A556CA800DCEBFE /* Tunnel.png */; };
+		8DC371601A556EF600DCEBFE /* MainMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3715F1A556EF600DCEBFE /* MainMenu.jpg */; };
+		8DC371631A5571B900DCEBFE /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC371621A5571B900DCEBFE /* GameViewController.m */; };
+		8DC371691A55909600DCEBFE /* Plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DC371681A55909600DCEBFE /* Plane.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		8DC371431A556A8A00DCEBFE /* FlappyGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC371481A556A8A00DCEBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC371491A556A8A00DCEBFE /* FlappyGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyGameTests.m; sourceTree = "<group>"; };
+		8DC371531A556CA800DCEBFE /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		8DC371561A556CA800DCEBFE /* Tunnel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tunnel.png; sourceTree = "<group>"; };
+		8DC3715F1A556EF600DCEBFE /* MainMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MainMenu.jpg; sourceTree = "<group>"; };
+		8DC371611A5571B900DCEBFE /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		8DC371621A5571B900DCEBFE /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
+		8DC371681A55909600DCEBFE /* Plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plane.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,8 @@
 			children = (
 				8DC371311A556A8A00DCEBFE /* AppDelegate.h */,
 				8DC371321A556A8A00DCEBFE /* AppDelegate.m */,
+				8DC371611A5571B900DCEBFE /* GameViewController.h */,
+				8DC371621A5571B900DCEBFE /* GameViewController.m */,
 				8DC371341A556A8A00DCEBFE /* ViewController.h */,
 				8DC371351A556A8A00DCEBFE /* ViewController.m */,
 				8DC371371A556A8A00DCEBFE /* Main.storyboard */,
@@ -96,6 +109,10 @@
 		8DC3712D1A556A8A00DCEBFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8DC371531A556CA800DCEBFE /* Background.png */,
+				8DC3715F1A556EF600DCEBFE /* MainMenu.jpg */,
+				8DC371681A55909600DCEBFE /* Plane.png */,
+				8DC371561A556CA800DCEBFE /* Tunnel.png */,
 				8DC3712E1A556A8A00DCEBFE /* Info.plist */,
 				8DC3712F1A556A8A00DCEBFE /* main.m */,
 			);
@@ -199,7 +216,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC3715A1A556CA800DCEBFE /* Tunnel.png in Resources */,
+				8DC371691A55909600DCEBFE /* Plane.png in Resources */,
 				8DC371391A556A8A00DCEBFE /* Main.storyboard in Resources */,
+				8DC371571A556CA800DCEBFE /* Background.png in Resources */,
+				8DC371601A556EF600DCEBFE /* MainMenu.jpg in Resources */,
 				8DC3713E1A556A8A00DCEBFE /* LaunchScreen.xib in Resources */,
 				8DC3713B1A556A8A00DCEBFE /* Images.xcassets in Resources */,
 			);
@@ -219,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC371631A5571B900DCEBFE /* GameViewController.m in Sources */,
 				8DC371361A556A8A00DCEBFE /* ViewController.m in Sources */,
 				8DC371331A556A8A00DCEBFE /* AppDelegate.m in Sources */,
 				8DC371301A556A8A00DCEBFE /* main.m in Sources */,
